@@ -11,6 +11,9 @@ public class FieldPojo {
         this.inline = inline;
     }
 
+    public FieldPojo() {
+    }
+
     public boolean isInline() {
         return inline;
     }

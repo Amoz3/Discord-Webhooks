@@ -13,6 +13,9 @@ public class EmbedPojo {
         this.fields = fields;
     }
 
+    public EmbedPojo() {
+    }
+
     public EmbedPojo(String title, String type, String description, int color, FieldPojo[] fields) {
         this.title = title;
         this.type = type;

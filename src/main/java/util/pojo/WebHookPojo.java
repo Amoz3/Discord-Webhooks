@@ -6,6 +6,8 @@ public class WebHookPojo {
     private String avatar_url;
     private EmbedPojo[] embeds;
 
+    public WebHookPojo() {
+    }
 
     public WebHookPojo(EmbedPojo[] embeds) {
         this.embeds = embeds;
